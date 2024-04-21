@@ -18,7 +18,7 @@
 
 //Bài 3: Viết hàm tính giai thừa của một số nguyên bất kỳ được đưa vào. Gọi hàm vừa xây dựng được.
 // function factorial(num){
-//     if(num <= 1) return  1
+//     if(num === 0) return  1
 //     return num * factorial(num - 1)
 // }
 // let number = +prompt('Enter a number')
