@@ -1,0 +1,36 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h3>Add New Product</h3>
+    <table>
+        <tr>
+            <td><label><input type="text" id="newProduct"></label></td>
+            <td><input type="button" value="Add" onclick="addNewProduct()"></td>
+        </tr>
+    </table>
+
+    <table>
+        <tr>
+            <th>Product Name</th>
+            <th colspan="2" id="number">products</th>
+        </tr>
+        <tbody id="list">
+            <tr>
+                <td>Sony Xperia</td>
+                <td><input type="button" value="Edit" onclick="editProduct()"></td>
+                <td><input type="button" value="Delete" onclick="deleteProduct()"></td>
+            </tr>
+        </tbody>
+
+    </table>
+
+    <script src="product.js"></script>
+</body>
+
+</html>
